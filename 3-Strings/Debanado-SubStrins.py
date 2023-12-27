@@ -21,7 +21,7 @@ from3 = cadena[3:]
 print (from3)
 last3 = cadena[-3:]
 print ("Last 3 negative: "+last3)
-
+print ("cadena[-3]: "+cadena[-3])
 #Get the last 3 letters witout using negative
 
 last3 = cadena[len(cadena)-3:]
