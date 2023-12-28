@@ -15,7 +15,7 @@ print(dict.get(1))
 dict.setdefault(4, 5)
 print(dict)
 
-#mix to dictionaries in one
+#mix 2 dictionaries in one
 dict2 = {3:5, 5:7}
 dict.update(dict2)
 print(dict)
