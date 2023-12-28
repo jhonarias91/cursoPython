@@ -1,3 +1,4 @@
+#Tuples are inmutables
 tuple = (1,2,3,4,5)
 tuple2= 1,2,3,4,5
 
@@ -14,6 +15,7 @@ print(deban)
 #When negatives, it go the last 3
 last3= tuple[-3:]
 print(last3)
+
 #All elements but not last 2
 excludeLast2= tuple[:-2]
 print(excludeLast2)
