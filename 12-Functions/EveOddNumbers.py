@@ -12,6 +12,7 @@ def askNumbers():
 
 askNumbers()
 def showEvenAndOdds():
+    numbers.sort()
     even, odds = [], []
     for i in numbers:
         if (i % 2 == 0):
